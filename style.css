@@ -1,0 +1,115 @@
+
+body{
+    background-color:#19A1AE;
+    height: 720px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-pattern-bottom.svg), url(./images/bg-pattern-top.svg);
+    background-position: bottom -30rem right -25rem, top -30rem left -30rem;
+    background-repeat: no-repeat, no-repeat;
+}
+.container{
+    height: 374px;
+    width: 350px;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: 0px 50px 100px -20px #08465E81;
+    background-color: white;
+    overflow: hidden;
+}
+.avatar{
+   position: absolute;
+    margin-left: 127px;
+    margin-top: 92px;
+}
+.avatar img{
+    border: 5px solid #FFFFFF;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+.mainimage img{
+    position: absolute;
+    height: 140px;
+    width: 350px;
+    background: #41CBD3;
+    border-radius: 15px 15px 0px 0px;
+}
+.name{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-left: 108px;
+    margin-right: 138px;
+    margin-top: 212px;
+    height: 18px;
+    width: 104px;
+}
+.vc{
+    color:  #2E3349;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+}
+.age{
+    height: 18px;
+    width: 22px;
+    margin-left: 112.5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #6b7082;
+}
+.container p{
+    margin-top: 13px;
+    margin-left: 38px;
+    height: 14px;
+    width: 50px;
+    color: #6b7082;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+}
+hr{
+    margin: 0;
+    background: #E8E9EC;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    height: 1px;
+    width: 350px;
+    top: 285px;
+}
+.numbers{
+    margin-left: 59px;
+    margin-right: 57px;
+    margin-bottom: 9px;
+    margin-top: 80px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #2E3349;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity{
+    margin-left: 48px;
+    margin-bottom: 27px;
+    margin-right: 56px;
+    font-family: 'Kumbh Sans',sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color:#6B7082;
+    display: flex;
+    justify-content: space-between;
+}
+
